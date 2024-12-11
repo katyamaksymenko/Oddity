@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+    <title> Google Chrome Template </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <nav class="site-navigation">
+        <div class="site-navigation__header">
+            <a href="#" class="site-navigation__link ">
+                Gmail
+            </a>
+            <a href="#" class="site-navigation__link ">
+                Images
+            </a>
+            <a href="" class="site-navigation__menu">
+                <svg class="site-navigation__icon" width="22" height="22" focusable="false" viewBox="0 0 24 24">
+                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                </svg>
+            </a>
+            <button class="site-navigation__button site-navigation__button--sign-in">
+                Увійти
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <img id="google_image" src="https://media.geeksforgeeks.org/wp-content/uploads/20240120152553/social-(1).png" >
+        <img id="message"  src="images/oddity.svg" alt="oddity" style="display: none;" class="oddity">
+        <section class="search" id="search-input-section">
+            <div class="search__container">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240122040847/search.png"
+                     alt="google-search-btn"
+                     class="search__icon">
+                <input type="text"
+                       placeholder="Search Google or type a URL"
+                       class="search-input">
+            </div>
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240120153531/google-voice.png"
+                 alt="Google Mic"
+                 class="mic-icon">
+        </section>
+
+        <section class="buttons-section">
+            <button class="google-search-btn">
+                Пошук Search
+            </button>
+            <button class="feeling-lucky-btn" id="lucky-btn">
+                Мені пощастить
+            </button>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__ua">Україна</div>
+            <div class="footer__links">
+                <ul class="footer__list">
+                    <li class="footer__item">Про Google</li>
+                    <li class="footer__item">Реклама</li>
+                    <li class="footer__item">Для бізнесу</li>
+                    <li class="footer__item">Пошук</li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item">Конфіденційність</li>
+                    <li class="footer__item">Умови</li>
+                    <li class="footer__item">Налаштування</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="index.js">
+</script>
+</html>
